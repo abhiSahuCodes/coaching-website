@@ -173,3 +173,26 @@ body {
   box-shadow: 10px 5px 0px 0px #fff, 10px 7px 0px 2px rgba(0, 0, 0, 1);
 }
 
+/* Money Back Guarantee Section */
+
+.money-back-guarantee {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  margin: 6rem 0;
+}
+
+.money-back-guarantee h2 {
+  font-size: 3rem;
+  font-weight: 400;
+}
+
+.money-back-guarantee span {
+  color: #0B53BF;
+}
+
+.money-back-guarantee p {
+  font-size: 1.5rem;
+  text-align: center;
+}
+
