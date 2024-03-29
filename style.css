@@ -1,5 +1,7 @@
 @import url("https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap");
 
+/* <a href="https://www.flaticon.com/free-icons/essay" title="essay icons">Essay icons created by Freepik - Flaticon</a> */
+
 body {
   /* max-width: 1440px; */
   background-color: #fdfcfc;
@@ -25,13 +27,14 @@ body {
   height: 80px;
 }
 
-.logo p {
-  font-weight: 700;
-  font-size: 2.5rem;
-  letter-spacing: 5px;
-  background-color: #e6f3fd;
-  border-radius: 10px;
-  padding: 0.6rem;
+.logo {
+  width: 5rem;
+  height: auto;
+}
+
+.logo img {
+  width: 100%;
+  height: auto;
 }
 
 .tabs {
@@ -53,13 +56,12 @@ body {
 /* Hero */
 
 .hero {
-  padding: 1rem 1rem;
   display: flex;
-  margin-top: 2rem;
-  width: 100%;
+  margin: 2rem auto;
+  width: 80%;
   box-sizing: border-box;
   justify-content: space-between;
-  gap: 2rem;
+  gap: 6rem;
 }
 
 .left-hero {
@@ -81,9 +83,27 @@ body {
   font-size: 1.2rem;
 }
 
+.live {
+  width: 15%;
+  position: relative;
+  top: 0.2rem;
+}
+
+.date {
+  color: red;
+}
+
 .lower-description {
   font-size: 1.2rem;
 }
+
+.lower-description a {
+  color: #2BBF54;
+  text-decoration: none;
+  font-size: 1.5rem;
+  font-weight: 700;
+}
+
 
 .hero p {
   margin: 0;
@@ -114,6 +134,10 @@ body {
 .hero-button-container button:hover {
   cursor: pointer;
 }
+
+/* .right-hero {
+  width: 70%;
+} */
 
 .right-hero img {
   width: 100%;
@@ -196,3 +220,89 @@ body {
   text-align: center;
 }
 
+.video-description {
+  display: flex;
+  gap: 2rem;
+  padding: 2rem 4rem;
+  width: 80%;
+  justify-content: space-between;
+  margin-top: 4rem;
+}
+
+/* .video-thumbnail {
+  width: 40%;
+} */
+
+.about {
+  width: 40%;
+}
+
+.about h3 {
+  font-size: 2rem;
+  font-weight: 400;
+}
+
+.about p {
+  font-size: 1rem;
+  text-align: justify;
+}
+
+.topics {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  margin: 2rem 0;
+  gap: 5rem;
+}
+
+.notes {
+  display: flex;
+  flex-direction: column;
+  margin: 2rem 0;
+  width: 80%;
+}
+
+.topics-list {
+  display: flex;
+  justify-content: space-around;
+}
+
+.topic {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+.topic img {
+  width: 150px;
+  height: 150px;
+}
+
+.tests {
+  display: flex;
+  flex-direction: column;
+  margin: 2rem 0;
+  width: 80%;
+}
+
+.online {
+  display: flex;
+  align-items: center;
+  gap: 1rem;
+}
+
+.online p { 
+  font-size: 1.2rem;
+}
+
+.line {
+  width: 200px;
+  height: 0.5px;
+  background-color: #000;
+}
+
+.topic-headline {
+  font-size: 2rem;
+  font-weight: 500;
+  margin-top: -1rem;
+}
