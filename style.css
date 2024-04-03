@@ -9,7 +9,7 @@ body {
   font-family: "Poppins", sans-serif;
   box-sizing: border-box;
   padding: 0;
-  border: 2px solid red;
+  /* border: 2px solid red; */
   height: auto;
 }
 
@@ -98,12 +98,11 @@ body {
 }
 
 .lower-description a {
-  color: #2BBF54;
+  color: #2bbf54;
   text-decoration: none;
   font-size: 1.5rem;
   font-weight: 700;
 }
-
 
 .hero p {
   margin: 0;
@@ -116,7 +115,7 @@ body {
 .hero-button-container {
   display: flex;
   flex-direction: column;
-  max-width: 60%;
+  max-width: 80%;
   margin-top: 3rem;
   gap: 2rem;
 }
@@ -129,6 +128,7 @@ body {
   padding: 1rem 1.2rem;
   border-radius: 1rem;
   font-weight: 600;
+  white-space: nowrap;
 }
 
 .hero-button-container button:hover {
@@ -180,14 +180,17 @@ body {
 
 /* right and bottom side shadow for class-card-one */
 
-.class-card-one, .class-card-two, .class-card-three {
+.class-card-one,
+.class-card-two,
+.class-card-three {
   -moz-box-shadow: 10px 5px 1px 0px rgba(0, 0, 0, 1);
   -webkit-box-shadow: 10px 5px 1px 0px rgba(0, 0, 0, 1);
   box-shadow: 10px 5px 1px 0px rgba(0, 0, 0, 1);
 }
 
-
-.class-card-one:hover, .class-card-two:hover, .class-card-three:hover {
+.class-card-one:hover,
+.class-card-two:hover,
+.class-card-three:hover {
   cursor: pointer;
   background-color: #000;
   color: #fff;
@@ -212,7 +215,7 @@ body {
 }
 
 .money-back-guarantee span {
-  color: #0B53BF;
+  color: #0b53bf;
 }
 
 .money-back-guarantee p {
@@ -275,7 +278,7 @@ body {
 
 .topic img {
   width: 150px;
-  height: 150px;
+  height: auto;
 }
 
 .tests {
@@ -291,7 +294,7 @@ body {
   gap: 1rem;
 }
 
-.online p { 
+.online p {
   font-size: 1.2rem;
 }
 
@@ -305,4 +308,62 @@ body {
   font-size: 2rem;
   font-weight: 500;
   margin-top: -1rem;
+}
+
+/* Sample Videos */
+
+.sample-videos {
+  display: flex;
+  flex-direction: column;
+  margin: 2rem auto;
+  width: 80%;
+  /* border: 2px solid brown; */
+  padding: 2rem;
+  background-color: #F5F5FF;
+}
+
+.lectures-div {
+  display: flex;
+  flex-direction: column;
+  gap: 1px;
+  line-height: 0;
+}
+
+.lectures {
+  display: flex;
+  align-items: center;
+  gap: 1rem;
+}
+
+.lectures {
+  color: #ADACAD;
+}
+
+.line-second {
+  width: 100px;
+  height: 0.5px;
+  background-color: #2bbf54;
+
+}
+
+.sample {
+  font-size: 2rem;
+  font-weight: 700;
+  color: #153C80;
+  margin-top: 1rem;
+}
+
+.lecture-tag {
+  color: #ADACAD;
+}
+
+.sample-videos-thumbnails {
+  display: grid;
+  grid-template-columns: 1fr 1fr 1fr;
+  gap: 1rem;
+}
+
+.video iframe {
+  width: 90%;
+  height: 255px;
 }
