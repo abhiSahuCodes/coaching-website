@@ -253,6 +253,73 @@
           </div>
         </div>
       </div>
+      <!-- Form -->
+      <div id="modal" class="modal">
+        <div class="modal-content">
+          <span class="close">&times;</span>
+          <div class="form">
+            <form action="" id="contact-form">
+              <div class="personal-information">
+                <p class="first-heading-form">Personal Information</p>
+                <div class="name-field">
+                  <input
+                    type="text"
+                    placeholder="First Name"
+                    class="first-name"
+                    name="first-name"
+                    id="first-name"
+                    required
+                  />
+                  <input
+                    type="text"
+                    placeholder="Last Name"
+                    class="last-name"
+                    name="last-name"
+                    id="last-name"
+                    required
+                  />
+                </div>
+                <div class="date">
+                  <input
+                    type="date"
+                    name="date"
+                    id="date"
+                    placeholder="Date"
+                    required
+                  />
+                </div>
+              </div>
+              <div class="contact-details">
+                <p class="second-heading-form">Contact Details</p>
+                <div class="contact-field">
+                  <input
+                    type="email"
+                    placeholder="Email"
+                    name="email"
+                    id="email"
+                    required
+                  />
+                  <input
+                    type="text"
+                    placeholder="Whatsapp Mobile Number"
+                    id="mobile"
+                    name="mobile"
+                    required
+                    pattern="\d{10}"
+                    title="Please enter a 10-digit number."
+                    required
+                  />
+                </div>
+              </div>
+              <button type="submit">Submit</button>
+            </form>
+          </div>
+        </div>
+      </div>
+      <!-- Footer -->
+      <footer></footer>
     </section>
+
+    <script src="./script.js"></script>
   </body>
 </html>

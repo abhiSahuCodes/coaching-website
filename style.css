@@ -9,7 +9,7 @@ body {
   font-family: "Poppins", sans-serif;
   box-sizing: border-box;
   padding: 0;
-  /* border: 2px solid red; */
+  border: 2px solid red;
   height: auto;
 }
 
@@ -319,7 +319,7 @@ body {
   width: 80%;
   /* border: 2px solid brown; */
   padding: 2rem;
-  background-color: #F5F5FF;
+  background-color: #f5f5ff;
 }
 
 .lectures-div {
@@ -336,25 +336,24 @@ body {
 }
 
 .lectures {
-  color: #ADACAD;
+  color: #adacad;
 }
 
 .line-second {
   width: 100px;
   height: 0.5px;
   background-color: #2bbf54;
-
 }
 
 .sample {
   font-size: 2rem;
   font-weight: 700;
-  color: #153C80;
+  color: #153c80;
   margin-top: 1rem;
 }
 
 .lecture-tag {
-  color: #ADACAD;
+  color: #adacad;
 }
 
 .sample-videos-thumbnails {
@@ -366,4 +365,127 @@ body {
 .video iframe {
   width: 90%;
   height: 255px;
+}
+
+/* form */
+
+.form {
+  max-width: 600px;
+  margin: 0 auto;
+  background-color: #ccc;
+  padding: 1rem;
+}
+
+.first-heading-form,
+.second-heading-form {
+  font-weight: bold;
+}
+
+.name-field {
+  display: flex;
+  justify-content: space-between;
+  gap: 1rem;
+}
+
+.name-field input {
+  width: 48%;
+}
+
+.date {
+  margin-top: 10px;
+}
+
+.contact-field {
+  display: flex;
+  justify-content: space-between;
+  margin-top: 10px;
+  gap: 1rem;
+}
+
+.contact-field input {
+  width: 48%;
+}
+
+input[type="text"],
+input[type="email"],
+input[type="date"] {
+  padding: 10px;
+  border: 2px solid #ccc;
+  border-radius: 4px;
+  font-size: 16px;
+  outline: none;
+  font-family: "Poppins", sans-serif;
+}
+
+::placeholder {
+  color: #999;
+}
+
+input[type="text"]:focus,
+input[type="email"]:focus,
+input[type="date"]:focus {
+  border-color: #66afe9;
+  box-shadow: 0 0 6px #66afe9;
+}
+
+button[type="submit"] {
+  padding: 10px 20px;
+  background-color: #5c88da;
+  color: #fff;
+  border: none;
+  border-radius: 4px;
+  font-size: 16px;
+  cursor: pointer;
+  margin-top: 1rem;
+}
+
+button:hover {
+  background-color: #2b6ce4;
+}
+
+#date::placeholder {
+  color: rgba(0, 0, 0, 0.4);
+  font-style: italic;
+  font-family: "Arial", sans-serif;
+}
+
+#date:focus::placeholder {
+  color: transparent;
+}
+
+/*  */
+.modal {
+  display: none;
+  position: fixed;
+  z-index: 1000;
+  left: 0;
+  top: 0;
+  width: 100%;
+  height: 100%;
+  overflow: auto;
+  background-color: rgba(0, 0, 0, 0.5);
+}
+
+.modal-content {
+  background-color: #ccc;
+  margin: 15% auto;
+  padding: 1rem;
+  border: 1px solid #888;
+  width: 80%;
+  max-width: 600px;
+  border-radius: 0.5rem;
+}
+
+.close {
+  color: #aaa;
+  float: right;
+  font-size: 28px;
+  font-weight: bold;
+}
+
+.close:hover,
+.close:focus {
+  color: #000;
+  text-decoration: none;
+  cursor: pointer;
 }
