@@ -9,7 +9,7 @@ body {
   font-family: "Poppins", sans-serif;
   box-sizing: border-box;
   padding: 0;
-  border: 2px solid red;
+  /* border: 2px solid red; */
   height: auto;
 }
 
@@ -154,7 +154,7 @@ body {
 }
 
 .class-card div {
-  border: 3px solid black;
+  /* border: 3px solid black; */
   padding: 0.5rem 4rem;
   display: flex;
   flex-direction: column;
@@ -230,14 +230,15 @@ body {
   width: 80%;
   justify-content: space-between;
   margin-top: 4rem;
+  align-items: center;
 }
 
-/* .video-thumbnail {
-  width: 40%;
-} */
+.video-thumbnail {
+  object-fit: cover;
+}
 
 .about {
-  width: 40%;
+  max-width: 40%;
 }
 
 .about h3 {
@@ -249,6 +250,8 @@ body {
   font-size: 1rem;
   text-align: justify;
 }
+
+/* Topic Section */
 
 .topics {
   display: flex;
@@ -362,12 +365,16 @@ body {
   gap: 1rem;
 }
 
+.video {
+  object-fit: contain;
+}
+
 .video iframe {
   width: 90%;
   height: 255px;
 }
 
-/* form */
+/* Form */
 
 .form {
   max-width: 600px;
@@ -453,7 +460,7 @@ button:hover {
   color: transparent;
 }
 
-/*  */
+/* Modal */
 .modal {
   display: none;
   position: fixed;
@@ -488,4 +495,207 @@ button:hover {
   color: #000;
   text-decoration: none;
   cursor: pointer;
+}
+
+/* Contact Us */
+
+.contact-us {
+  /* border: 1px solid brown; */
+  margin: 2rem auto;
+  width: 80%;
+}
+
+.faded-line {
+  display: flex;
+  align-items: center;
+  gap: 0.5rem;
+}
+
+.faded-line p {
+  font-size: 1rem;
+  font-weight: 500;
+  color: #adacad;
+}
+
+.contact-heading p {
+  font-size: 1.5rem;
+  font-weight: 700;
+  color: #153c80;
+  margin-top: -1rem;
+}
+
+.contacts {
+  display: flex;
+  justify-content: space-between;
+}
+
+.call,
+.whatsapp,
+.email-id {
+  display: flex;
+  align-items: center;
+  gap: 1rem;
+}
+
+.icon {
+  width: 60px;
+  height: 60px;
+  background-color: #d1d9e9;
+  border-radius: 50%;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.icon i {
+  font-size: 2rem;
+  color: #153c80;
+}
+
+.contact-box {
+  display: flex;
+  flex-direction: column;
+}
+
+.contact-box p:nth-child(1) {
+  font-size: 1.5rem;
+  font-weight: 700;
+  color: #153c80;
+}
+
+.contact-box p:nth-child(2) {
+  margin-top: -1rem;
+}
+
+/* Footer */
+
+footer {
+  background-color: #032766;
+  width: 100%;
+  padding: 2rem 0;
+}
+
+.footer-section {
+  /* border: 2px solid red; */
+  width: 80%;
+  margin: 0 auto;
+}
+
+.upper-footer-section {
+  display: flex;
+  justify-content: space-between;
+}
+
+.quote-section {
+  background-color: #012c6f;
+}
+
+.upper-bar {
+  width: 100%;
+  height: 3px;
+  background-color: #1acc8d;
+}
+
+.quote {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  gap: 0.5rem;
+  box-sizing: border-box;
+  width: 100%;
+  height: auto;
+  padding: 0.5rem 2rem;
+}
+
+.quote h6 {
+  font-size: 1.5rem;
+  margin: 0;
+  color: #fff;
+}
+
+.the-quote {
+  font-size: 0.8rem;
+  color: #fff;
+  margin: 0;
+}
+
+.name {
+  font-size: 1rem;
+  color: #fff;
+  margin: 0;
+  font-weight: 700;
+}
+
+.useful-links {
+  display: flex;
+  flex-direction: column;
+}
+
+.useful-links h6 {
+  font-size: 1.5rem;
+  color: #fff;
+  margin: 0;
+}
+
+.useful-links ul {
+  list-style: none;
+  padding: 0;
+  color: #fff;
+  font-size: 0.8rem;
+}
+
+.useful-links li::before {
+  content: ">";
+  color: #1acc8d;
+  margin-right: 5px;
+}
+
+.social-media {
+  display: flex;
+  flex-direction: column;
+  gap: 0.5rem;
+}
+
+.social-media h6 {
+  font-size: 1.5rem;
+  color: #fff;
+  margin: 0;
+}
+
+.social-media-links {
+  display: flex;
+  gap: 1rem;
+}
+
+.social-media-links i {
+  font-size: 2rem;
+  color: #fff;
+  cursor: pointer;
+}
+
+.lower-footer-section {
+  /* border: 2px solid brown; */
+  display: flex;
+  justify-content: center;
+  margin-top: 2rem;
+  border-top: 1px solid #010976;
+  padding-top: 1rem;
+}
+
+.footer-info {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  color: #fff;
+}
+
+.footer-info p:nth-child(1) {
+  margin: 0;
+}
+
+.footer-info p:nth-child(2) {
+  margin: 0;
+  font-size: 0.8rem;
 }
