@@ -701,3 +701,12 @@ footer {
   margin: 0;
   font-size: 0.8rem;
 }
+
+/* Terms and Conditions */
+
+.terms-conditions-division {
+  width: 80%;
+  margin: 0 auto;
+  margin-top: 5rem;
+  margin-bottom: 2rem;
+}
