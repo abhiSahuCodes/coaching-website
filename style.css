@@ -25,6 +25,8 @@ body {
   padding: 0.5rem 1rem;
   height: auto;
   height: 80px;
+  width: 80%;
+  margin: 0 auto;
 }
 
 .logo {
@@ -40,7 +42,7 @@ body {
 .tabs {
   display: flex;
   gap: 2rem;
-  padding-right: 12%;
+  /* padding-right: 12%; */
 }
 
 .tabs p {
@@ -154,7 +156,7 @@ body {
 }
 
 .class-card div {
-  /* border: 3px solid black; */
+  border: 3px solid black;
   padding: 0.5rem 4rem;
   display: flex;
   flex-direction: column;
