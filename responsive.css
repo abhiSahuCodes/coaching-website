@@ -87,4 +87,53 @@ html {
     /* box-shadow: 10px 5px 1px 0px rgba(0, 0, 0, 0.2); */
     box-shadow: 2px 2px 0px 0px #fff, 2px 2px 0px 1px rgba(0, 0, 0, 1);
   }
+
+  /* Money Back Guarantee Section */
+
+  .money-back-guarantee {
+    margin: 3rem auto;
+    width: 90%;
+  }
+
+  .money-back-guarantee h2 {
+    font-size: 1.8rem;
+    font-weight: 400;
+    width: 90%;
+    text-align: center;
+  }
+
+  .money-back-guarantee p {
+    font-size: 1rem;
+  }
+
+  .video-description {
+    flex-direction: column;
+    width: 90%;
+    margin: 0 auto;
+    padding: 0;
+  }
+
+  .video-thumbnail {
+    width: 100%;
+  }
+
+  .video-thumbnail iframe {
+    width: 100%;
+    height: 100%;
+  }
+
+  .about {
+    max-width: 100%;
+  }
+  
+  .about h3 {
+    font-size: 1.2rem;
+    font-weight: 400;
+  }
+  
+  .about p {
+    font-size: 1rem;
+    text-align: justify;
+  }
+
 }
