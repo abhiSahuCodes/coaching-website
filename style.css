@@ -653,6 +653,11 @@ footer {
   margin-right: 5px;
 }
 
+.useful-links a {
+  color: white;
+  text-decoration: none;
+}
+
 .social-media {
   display: flex;
   flex-direction: column;
