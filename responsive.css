@@ -169,4 +169,26 @@ html {
     height: auto;
   }
 
+  /* Form */
+  .form {
+    padding: 0.1rem;
+  }
+
+  .name-field {
+    gap: 0.5rem;
+    flex-direction: column;
+  }
+
+  .name-field input {
+    width: 90%;
+  }
+
+  .contact-field {
+    flex-direction: column;
+    gap: 0.5rem;
+  }
+
+  .contact-field input {
+    width: 90%;
+  }
 }
