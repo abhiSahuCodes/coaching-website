@@ -573,7 +573,6 @@ footer {
 }
 
 .footer-section {
-  /* border: 2px solid red; */
   width: 80%;
   margin: 0 auto;
 }
@@ -677,7 +676,6 @@ footer {
 }
 
 .lower-footer-section {
-  /* border: 2px solid brown; */
   display: flex;
   justify-content: center;
   margin-top: 2rem;
