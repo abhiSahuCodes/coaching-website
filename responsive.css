@@ -191,4 +191,16 @@ html {
   .contact-field input {
     width: 90%;
   }
+
+  /* Contact Us */
+
+  .faded-line p {
+    font-size: 0.8rem;
+  }
+
+  .contacts {
+    display: flex;
+    flex-direction: column;
+    gap: 1rem;
+  }
 }
