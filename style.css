@@ -567,7 +567,7 @@ button:hover {
 /* Footer */
 
 footer {
-  background-color: #032766;
+  background-color: #000;
   width: 100%;
   padding: 2rem 0;
 }
@@ -583,13 +583,13 @@ footer {
 }
 
 .quote-section {
-  background-color: #012c6f;
+  background-color: #242323;
 }
 
 .upper-bar {
   width: 100%;
   height: 3px;
-  background-color: #1acc8d;
+  background-color: #fff;
 }
 
 .quote {
@@ -643,7 +643,7 @@ footer {
 
 .useful-links li::before {
   content: ">";
-  color: #1acc8d;
+  color: #ff0000;
   margin-right: 5px;
 }
 
@@ -679,7 +679,7 @@ footer {
   display: flex;
   justify-content: center;
   margin-top: 2rem;
-  border-top: 1px solid #010976;
+  border-top: 1px solid #fff;
   padding-top: 1rem;
 }
 
